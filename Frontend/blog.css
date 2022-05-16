@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(161, 161, 161);
+}
+#blogs-page{
+    border:3px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: black;
+    color:white;
+}
+.blogdiv{
+    border:3px solid black;
+    border-radius: 5px;
+    width: 800px;
+    height:200px;
+    /* background-color: black; */
+    color:white;
+    margin:10px;
+}
+.title{
+    
+    display: block;
+    background-color: blueviolet;
+    color:white;
+    height:20px;
+}
+.content{
+    
+    display: block;
+    background-color: white;
+    color:black;
+    height:160px;
+
+}
+.author{
+   
+    display: block;
+    background-color: white;
+    color:black
+
+}
+#blog-container{
+    margin-left: 500px;
+    
+    
+
+}
