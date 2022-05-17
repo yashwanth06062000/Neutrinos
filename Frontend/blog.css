@@ -1,47 +1,75 @@
-body{
-    background-color: rgb(161, 161, 161);
-}
-#blogs-page{
-    border:3px solid black;
-    border-radius: 5px;
-    width: fit-content;
-    background-color: black;
-    color:white;
-}
-.blogdiv{
-    border:3px solid black;
-    border-radius: 5px;
-    width: 800px;
-    height:200px;
-    /* background-color: black; */
-    color:white;
-    margin:10px;
-}
-.title{
-    
-    display: block;
-    background-color: blueviolet;
-    color:white;
-    height:20px;
-}
-.content{
-    
-    display: block;
-    background-color: white;
-    color:black;
-    height:160px;
+body {
+  background-image: url("../Background.jpg");
 
+  font-size: 25px;
+  color: black;
 }
-.author{
-   
-    display: block;
-    background-color: white;
-    color:black
+#blogs-page {
+  border-radius: 5px;
+  flex: 25%;
 
+  color: black;
+  margin: 0px;
 }
-#blog-container{
-    margin-left: 500px;
-    
-    
+.blogdiv {
+  border: 3px solid black;
+  border-radius: 5px;
 
+  color: white;
+  margin: 3rem;
+}
+.title {
+  display: block;
+  background-color: rgb(69, 225, 228);
+  color: black;
+}
+.content {
+  display: block;
+  color: black;
+  height: fit-content;
+}
+.author {
+  display: block;
+  color: black;
+}
+#blog-container {
+  flex: 60%;
+}
+#blogpage {
+  margin: 0px;
+  width: 500px;
+  margin: 0px;
+}
+#fullpage {
+  display: flex;
+}
+#content {
+  width: 380px;
+  height: 350px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 20px;
+}
+#title {
+  width: 380px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 20px;
+}
+#authorname {
+  width: 380px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 20px;
+}
+#submitbutton {
+  width: 380px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 25px;
+  background-color: rgb(69, 225, 228);
+  color: black;
 }
